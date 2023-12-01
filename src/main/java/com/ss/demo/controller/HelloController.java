@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/demo")
     public ResponseEntity<String> display(){
-        return ResponseEntity.ok("Welcome!");
+        return ResponseEntity.ok("Hello there!");
     }
 }
